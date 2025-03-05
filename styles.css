@@ -166,6 +166,7 @@ section::-webkit-scrollbar {
     letter-spacing: 0.2em;
     font-size: 14px;
     font-family: 'New York';
+    text-shadow: 0px 0px black;
 }
 
 
@@ -321,8 +322,8 @@ section::-webkit-scrollbar {
     letter-spacing: 0.2em;
 
 }
-.precio_texto{margin: 0px; color: gray;}
-.precio{margin: 0px 0px 30px 0px;color: gray;}
+.precio_texto{margin: 0px; color: black;}
+.precio{margin: 0px 0px 30px 0px;color: black;}
 .confirmacion{margin: 0px; font-size: 24px;}
 .horizontal{
     
@@ -334,7 +335,7 @@ section::-webkit-scrollbar {
 }
 .alias{margin: 0px; color: black;}
 .text_comprobante{margin: 30px 0px 0px 0px;color: black;}
-.comprobante{margin: 0px;color: black;}
+.comprobante{margin: 0px;color: black;text-shadow: 0px 0px black;}
 
 
 .horizontal_info{
@@ -366,7 +367,7 @@ section::-webkit-scrollbar {
     
     .primer_Renglon{
 
-        margin: 30% 0px 0px 0px;
+        margin: 40px 0px 0px 0px;
         display: block;
     
     }
@@ -436,7 +437,7 @@ section::-webkit-scrollbar {
     
     .info_fecha{
     
-        margin: 25% 0px 0px 0px;
+        margin: 50px 0px 0px 0px;
     
     }
     
@@ -453,7 +454,7 @@ section::-webkit-scrollbar {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 18vh 0px 0px 0px;
+        margin: 80px 0px 0px 0px;
     
     }
     
@@ -519,8 +520,8 @@ section::-webkit-scrollbar {
     
     .logo{
         
-        width: 30%;
-        margin: 8vh 4vw 8vh 0px;
+        width: 100px;
+        margin: 40px 4vw 40px 0px;
 
     }
     .tarjeta{
@@ -538,13 +539,13 @@ section::-webkit-scrollbar {
     
     }
     .precio_texto{margin: 0px;}
-    .precio{margin: 0px 0px 8vh 0px;}
+    .precio{margin: 0px 0px 40px 0px;}
     .confirmacion{margin: 0px; color: black; font-size: 24px;}
     .horizontal{
         
         align-self: center;
         width: 22vw;
-        margin: 5vh 0px 5vh 0px;
+        margin: 30px 0px 30px 0px;
     
     
     }
