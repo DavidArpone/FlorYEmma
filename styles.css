@@ -168,23 +168,11 @@ section::-webkit-scrollbar {
     font-family: 'New York';
 }
 
-.nombre{
-
-    margin: 0px 0px 50px 0px;
-    font-family: 'New York';
-    font-size: 10px;
-
-}
 
 .info{
 
     width: 100vw;
     height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 
     background-image: url('https://davidarpone.github.io/fuentes/Barra.png');
     background-repeat: no-repeat;
@@ -200,7 +188,6 @@ section::-webkit-scrollbar {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 
     background-image: url('https://davidarpone.github.io/fuentes/HojasLaterales.png');
@@ -208,6 +195,12 @@ section::-webkit-scrollbar {
     background-position-x: 105%;
     background-position-y: 80%;
 
+
+}
+
+.fa-solid fa-church{
+
+    font-size: x-large;
 
 }
 
@@ -247,9 +240,17 @@ section::-webkit-scrollbar {
 
 }
 
+.numeros{
+
+    display: inline;
+    margin: 0px;
+    text-shadow: 0px 0px black;
+
+}
+
 .ceremonia{margin: 0px; font-family: 'Bacalisties'; font-size: 40px;}
 .ivs{margin: 0px;}
-.dir_ivs{margin: 0px;}
+.dir_ivs{margin: 0px; display: flex; justify-content: center;}
 .hs_ivs{margin: 0px;}
 
 .info_fiesta{
@@ -263,7 +264,7 @@ section::-webkit-scrollbar {
 
 .fiesta{margin: 0px; font-family: 'Bacalisties'; font-size: 40px;}
 .andmulti{margin: 0px;}
-.dir_andmulti{margin: 0px;}
+.dir_andmulti{margin: 0px; display: flex; justify-content: center;}
 .hs_andmulti{margin: 0px;}
 
 .dresscode{
@@ -419,15 +420,6 @@ section::-webkit-scrollbar {
         text-align: justify;
         font-family: 'New York';
     }
-    
-    .nombre{
-    
-        margin: 0px 0px 10vh 0px;
-        font-family: 'New York';
-        font-size: 14px;
-    
-    }
-
 
     .info{
 
@@ -461,6 +453,7 @@ section::-webkit-scrollbar {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin: 18vh 0px 0px 0px;
     
     }
     
@@ -479,7 +472,7 @@ section::-webkit-scrollbar {
         display: block;
         align-self: center;
         width: 22vw;
-        margin: 3vh 0px 3vh 0px;
+        margin: 5vh 0px 5vh 0px;
     
     }
     
@@ -503,13 +496,6 @@ section::-webkit-scrollbar {
     .dir_andmulti{margin: 0px;}
     .hs_andmulti{margin: 0px;}
     
-    .dresscode{
-    
-        margin: 0px 0px 10vh 0px;
-        font-family: 'New York';
-        font-size: 14px;
-    
-    }
     
     .link{
     
@@ -534,7 +520,7 @@ section::-webkit-scrollbar {
     .logo{
         
         width: 30%;
-        margin: 8vh 4vw 16vh 0px;
+        margin: 8vh 4vw 8vh 0px;
 
     }
     .tarjeta{
@@ -552,13 +538,13 @@ section::-webkit-scrollbar {
     
     }
     .precio_texto{margin: 0px;}
-    .precio{margin: 0px 0px 30px 0px;}
+    .precio{margin: 0px 0px 8vh 0px;}
     .confirmacion{margin: 0px; color: black; font-size: 24px;}
     .horizontal{
         
         align-self: center;
         width: 22vw;
-        margin: 20px 0px 20px 0px;
+        margin: 5vh 0px 5vh 0px;
     
     
     }
